@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-performance-control-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "lodash": "^4.17.23"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
